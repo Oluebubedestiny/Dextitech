@@ -1,0 +1,94 @@
+.progress_con {
+  display: grid;
+}
+.progress_bar {
+  background: #ff004f;
+  width: 250px;
+  height: 10px;
+  border-radius: 5px;
+}
+.progress_bar div {
+  height: 10px;
+  border-radius: 5px;
+  width: 0%;
+  background: blue;
+}
+.progress_bar div span {
+  height: 40px;
+  width: 40px;
+  font-size: 15px;
+  border: 1px solid blue;
+  border-radius: 50%;
+  background: transparent;
+  float: right;
+  margin-top: -15px;
+  margin-right: -20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.front_pro_con {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.back_pro_con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.html {
+  animation: html 2s linear forwards;
+}
+.css {
+  animation: css 1.5s linear forwards;
+}
+.js {
+  animation: js 1.5s linear forwards;
+}
+.react {
+  animation: react 1.5s linear forwards;
+}
+@keyframes html {
+  100% {
+    width: 94%;
+  }
+}
+@keyframes css {
+  100% {
+    width: 86%;
+  }
+}
+@keyframes js {
+  100% {
+    width: 80%;
+  }
+}
+@keyframes react {
+  100% {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .progress_con {
+    padding-left: 2rem;
+  }
+  .front_pro_con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .back_pro_con {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .progress_bar {
+    width: 300px;
+  }
+}

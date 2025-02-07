@@ -1,0 +1,11 @@
+.heroImg:hover {
+  filter: brightness(2);
+}
+.heroImg {
+  animation: spinImg 6s linear infinite;
+}
+@keyframes spinImg {
+  to {
+    transform: rotate(360deg);
+  }
+}
