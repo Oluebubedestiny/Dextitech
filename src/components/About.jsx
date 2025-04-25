@@ -1,7 +1,7 @@
 import styles, { layout } from "../style";
 import "./progress.css";
 import { profile } from "../assets";
-import { motion } from "framer-motion";
+
 import Button from "./Button";
 
 const About = () => (

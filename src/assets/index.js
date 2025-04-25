@@ -9,8 +9,9 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
-import profile from "./profile.png";
+import profile from "./profile.jpg";
 import heroBg from "./heroBg.png";
+
 
 export {
   logo,
