@@ -1,5 +1,5 @@
 import React from "react";
-import { facebook, instagram, linkedin, twitter } from "../assets";
+import { facebook, instagram, linkedin, twitter, email, phone, whatsapp } from "../assets";
 import styles, { layout } from "../style";
 import ContactForm from "./ContactForm";
 
@@ -12,20 +12,20 @@ function Contact() {
       <div className="md:mb-[3rem]">
         <h1 className={`${styles.heading2} text-gradient`}>Contact Me</h1>
         <div className={`${styles.iconFlex}`}>
-          <img src={instagram} alt="" target="_blank" />
+          <img src={email} alt="" target="_blank" />
           <a href="mailto:oluebubedestiny.o@gmail.com">
             <p className={`${styles.paragraph}`}>oluebubedestiny.o@gmail.com</p>
           </a>
         </div>
         <div className={`${styles.iconFlex}`}>
-          <img src={instagram} alt="" />
+          <img src={phone} alt="" className="w-[10px]" />
           <a href="tel:+2349063652206" target="_blank">
             <p className={`${styles.paragraph}`}>09063652206</p>
           </a>
         </div>
         <div className={`${styles.iconFlex} `}>
           <a href="https://wa.me/09063652206" target="_blank">
-            <img src={instagram} alt="" />
+            <img src={whatsapp} alt="" />
           </a>
           <a href="https://instagram.com/destinyozuzu" target="_blank">
             <img src={instagram} alt="" />

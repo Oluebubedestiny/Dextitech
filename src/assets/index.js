@@ -11,6 +11,9 @@ import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
 import profile from "./profile.jpg";
 import heroBg from "./heroBg.png";
+import email from "./email.svg";
+import phone from "./phone.svg";
+import whatsapp from "./whatsapp.svg";
 
 
 export {
@@ -27,4 +30,7 @@ export {
   twitter,
   profile,
   heroBg,
+  email,
+  phone,
+  whatsapp,
 };

@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import styles, { layout } from "../style";
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 
@@ -8,8 +8,9 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
+    <nav className="w-full flex py-4 justify-between items-center navbar">
+      {/* <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" /> */}
+      <h1 className="flex-1 font-poppins font-semibold ss:text-[30px] text-[25px] text-white ss:leading-[100.8px] leading-[35px] text-gradient">DextiTech</h1>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
