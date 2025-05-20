@@ -30,24 +30,14 @@ export const services = [
     info: "I build web applications, scripts with programming languages such as HTML, CSS, JavaScript, React, WordPress and APIs. I plan and deliver software platforms and products across multiple organizational units.",
   },
   {
-    id: "App",
-    title: "App Development",
-    info: " build and maintain web and mobile applications for organizations, Oversee the performance of applications to ensure they're always running properly.",
-  },
-  {
-    id: "Hrm",
-    title: "Human Resources Management",
-    info: "build and maintain web and mobile applications for organizations, Oversee the performance of applications to ensure they're always running properly.",
-  },
-  {
     id: "csrm",
-    title: "Customer Service Resource Management",
-    info: "build and maintain web and mobile applications for organizations, Oversee the performance of applications to ensure they're always running properly.",
+    title: "Customer Service Relationship Management",
+    info: "As a dedicated Customer Service Representative, I help resolve customer issues, answer questions, and provide solutions. I priortize excellent service, clear communications and timely resolutions.",
   },
   {
-    id: "pmp",
-    title: "Project Manager",
-    info: "build and maintain web and mobile applications for organizations, Oversee the performance of applications to ensure they're always running properly.",
+    id: "hrm",
+    title: "Human Resource Management ",
+    info: "As a human Resource Manager, I oversee recruitment, employee development and workplace culture. My goal is to foster a positive work environment, support employee growth and ensure company policies are fair and effective",
   },
 ];
 
