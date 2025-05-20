@@ -31,7 +31,7 @@ export const services = [
   },
   {
     id: "csrm",
-    title: "Customer Service Relationship Management",
+    title: "Customer Service Representative",
     info: "As a dedicated Customer Service Representative, I help resolve customer issues, answer questions, and provide solutions. I priortize excellent service, clear communications and timely resolutions.",
   },
   {
