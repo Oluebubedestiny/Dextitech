@@ -47,23 +47,23 @@ export const footerLinks = [
     links: [
       {
         name: "Home",
-        link: "https://www.hoobank.com/content/",
+        link: "https://destiny-rouge.vercel.app",
       },
       {
         name: "About",
-        link: "https://www.hoobank.com/how-it-works/",
+        link: "https://destiny-rouge.vercel.app/#about",
       },
       {
         name: "Services",
-        link: "https://www.hoobank.com/create/",
+        link: "https://destiny-rouge.vercel.app/#services",
       },
       {
         name: "Portfolio",
-        link: "https://www.hoobank.com/explore/",
+        link: "https://destiny-rouge.vercel.app/#portfolio",
       },
       {
         name: " Contact",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "https://destiny-rouge.vercel.app/#contact",
       },
     ],
   },

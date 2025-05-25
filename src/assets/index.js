@@ -14,8 +14,7 @@ import heroBg from "./heroBg.png";
 import email from "./email.svg";
 import phone from "./phone.svg";
 import whatsapp from "./whatsapp.svg";
-
-
+import cv from "./destinyOzuzuCv.pdf";
 export {
   logo,
   robot,
@@ -33,4 +32,5 @@ export {
   email,
   phone,
   whatsapp,
+  cv,
 };

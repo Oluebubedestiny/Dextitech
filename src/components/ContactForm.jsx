@@ -28,7 +28,7 @@ function ContactForm() {
     e.target.reset();
   };
   return (
-    <div>
+    <div className="mb-4">
       <form
         ref={form}
         onSubmit={sendEmail}
@@ -52,7 +52,7 @@ function ContactForm() {
             className={`${layout.input}`}
           />
         </div>
-        <div className={`${styles.inputFlex}`}>
+        <div className={`${styles.inputFlex} `}>
           <label className={`${styles.heading4}`}>Message</label>
           <textarea
             name="message"
