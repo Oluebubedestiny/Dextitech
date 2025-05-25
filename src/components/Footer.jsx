@@ -4,49 +4,36 @@ import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => (
   <section
-    className={`${styles.flexCenter} ${styles.paddingY} flex-col border-t-[1px] border-t-[#3F3E45]`}
+    className={`flex flex-col md:flex-row justify-between gap-10 items-center ${styles.paddingY} border-t-[1px] border-t-[#3F3E45]`}
   >
-    <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
-      <div className="flex-[1] flex flex-col justify-start mr-10">
-        {/* <img
+    <div className="flex flex-col justify-center items-center">
+      {/* <img
           src={logo}
           alt="hoobank"
           className="w-[266px] h-[72.14px] object-contain"
         /> */}
-        <h1 className="flex-1 font-poppins font-semibold ss:text-[30px] text-[30px] text-white ss:leading-[100.8px] leading-[35px] text-gradient">
-          DextiTech
-        </h1>
-        <p className={`${styles.paragraph} mt-4 md:mt-0 max-w-[312px]`}>
-          Get in touch, let's build something beautiful together.
-        </p>
-      </div>
-
-      <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
-        {footerLinks.map((footerlink) => (
-          <div
-            key={footerlink.title}
-            className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}
-          >
-            <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
-              {footerlink.title}
-            </h4>
-            <ul className="list-none mt-4">
-              {footerlink.links.map((link, index) => (
-                <li
-                  key={link.name}
-                  className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
-                    index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
-                  }`}
-                >
-                  {link.name}
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
+      <h1 className="flex flex-1 font-poppins font-semibold ss:text-[30px] text-[30px] text-white ss:leading-[100.8px] leading-[35px] text-gradient">
+        DextiTech
+      </h1>
+      <p className={`${styles.paragraph} mt-4 md:mt-0 max-w-[312px]`}>
+        Get in touch, let's build something beautiful together.
+      </p>
     </div>
 
+    <div className="flex flex-col justify-center gap-5 items-center">
+      <h2 className="flex-1 font-poppins font-semibold ss:text-[30px] text-[30px] text-white ss:leading-[100.8px] leading-[35px] text-gradient">
+        Useful Links
+      </h2>
+      <ul className="flex flex-row gap-4 text-dimWhite">
+        {footerLinks.map((item, index) => (
+          <li key={index}>
+            <a href={item.link} target="_blank" rel="noopener noreferrer">
+              {item.name}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
     <div className="border-t-[1px] border-t-[#3F3E45]"></div>
   </section>
 );

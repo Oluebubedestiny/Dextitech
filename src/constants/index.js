@@ -42,70 +42,78 @@ export const services = [
 ];
 
 export const footerLinks = [
-  {
-    title: "Useful Links",
-    links: [
-      {
-        name: "Home",
-        link: "https://destiny-rouge.vercel.app",
-      },
-      {
-        name: "About",
-        link: "https://destiny-rouge.vercel.app/#about",
-      },
-      {
-        name: "Services",
-        link: "https://destiny-rouge.vercel.app/#services",
-      },
-      {
-        name: "Portfolio",
-        link: "https://destiny-rouge.vercel.app/#portfolio",
-      },
-      {
-        name: " Contact",
-        link: "https://destiny-rouge.vercel.app/#contact",
-      },
-    ],
-  },
-  {
-    title: "Contact",
-    links: [
-      {
-        name: "oluebubedestiny.o@gmail.com",
-        link: "https://mailto:oluebubedestiny.o@gmail.com",
-      },
-      {
-        name: "09063652206",
-        link: "tel:+2349063652206",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
-  },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
-  },
+  { name: "Home", link: "/" },
+  { name: "About", link: "https://destiny-rouge.vercel.app/#about" },
+  { name: "Services", link: "https://destiny-rouge.vercel.app/#services" },
+  { name: "Portfolio", link: "https://destiny-rouge.vercel.app/#portfolio" },
+  { name: "Contact", link: "https://destiny-rouge.vercel.app/#contact" },
 ];
+
+// export const footerLinks = [
+//   {
+//     title: "Useful Links",
+//     links: [
+//       {
+//         name: "Home",
+//         link: "https://destiny-rouge.vercel.app",
+//       },
+//       {
+//         name: "About",
+//         link: "https://destiny-rouge.vercel.app/#about",
+//       },
+//       {
+//         name: "Services",
+//         link: "https://destiny-rouge.vercel.app/#services",
+//       },
+//       {
+//         name: "Portfolio",
+//         link: "https://destiny-rouge.vercel.app/#portfolio",
+//       },
+//       {
+//         name: " Contact",
+//         link: "https://destiny-rouge.vercel.app/#contact",
+//       },
+//     ],
+//   },
+//   {
+//     title: "Contact",
+//     links: [
+//       {
+//         name: "oluebubedestiny.o@gmail.com",
+//         link: "https://mailto:oluebubedestiny.o@gmail.com",
+//       },
+//       {
+//         name: "09063652206",
+//         link: "tel:+2349063652206",
+//       },
+//       {
+//         name: "Suggestions",
+//         link: "https://www.hoobank.com/suggestions/",
+//       },
+//       {
+//         name: "Blog",
+//         link: "https://www.hoobank.com/blog/",
+//       },
+//       {
+//         name: "Newsletters",
+//         link: "https://www.hoobank.com/newsletters/",
+//       },
+//     ],
+//   },
+//   {
+//     title: "Partner",
+//     links: [
+//       {
+//         name: "Our Partner",
+//         link: "https://www.hoobank.com/our-partner/",
+//       },
+//       {
+//         name: "Become a Partner",
+//         link: "https://www.hoobank.com/become-a-partner/",
+//       },
+//     ],
+//   },
+// ];
 
 export const socialMedia = [
   {
