@@ -15,6 +15,10 @@ import email from "./email.svg";
 import phone from "./phone.svg";
 import whatsapp from "./whatsapp.svg";
 import cv from "./destinyOzuzuCv.pdf";
+import workOne from "./workOne.jpg";
+import workTwo from "./workTwo.jpg";
+import workThree from "./workThree.png";
+
 export {
   logo,
   robot,
@@ -33,4 +37,7 @@ export {
   phone,
   whatsapp,
   cv,
+  workOne,
+  workTwo,
+  workThree,
 };

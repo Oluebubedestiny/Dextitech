@@ -27,7 +27,7 @@ const Footer = () => (
       <ul className="flex flex-row gap-4 text-dimWhite">
         {footerLinks.map((item, index) => (
           <li key={index}>
-            <a href={item.link} target="_blank" rel="noopener noreferrer">
+            <a href={item.link} rel="noopener noreferrer">
               {item.name}
             </a>
           </li>

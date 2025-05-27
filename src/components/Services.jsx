@@ -13,7 +13,7 @@ const Services = () => (
     <div>
       <h1 className={`${styles.heading2} text-gradient`}>My Services</h1>
       <div
-        className="grid grid-cols-2
+        className="flex flex-col md:grid
        md:grid-cols-3 gap-3 items-center pt-4"
       >
         {services.map((service) => (
