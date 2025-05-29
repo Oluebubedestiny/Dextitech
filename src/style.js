@@ -2,6 +2,8 @@ const styles = {
   boxWidth: "xl:max-w-[1280px] w-full",
   boxItem:
     "p-4 rounded-xl items-start justify-center border-2 border-zinc-800 ",
+  boxItem2:
+    "p-2 rounded-xl items-start justify-center border-2 border-zinc-800 ",
   heading3:
     "font-poppins font-semibold xs:text-[28px] text-[20px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
   heading4:

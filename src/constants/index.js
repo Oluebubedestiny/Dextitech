@@ -1,4 +1,13 @@
-import { facebook, instagram, linkedin, twitter, send } from "../assets";
+import {
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  send,
+  workOne,
+  workTwo,
+  workThree,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -38,6 +47,23 @@ export const services = [
     id: "hrm",
     title: "Human Resource Management ",
     info: "As a human Resource Manager, I oversee recruitment, employee development and workplace culture. My goal is to foster a positive work environment, support employee growth and ensure company policies are fair and effective",
+  },
+];
+export const works = [
+  {
+    img: workOne,
+    text: "This is a real estate website",
+    link: "https://https://giovannahomes.com",
+  },
+  {
+    img: workTwo,
+    text: "This is an investment website",
+    link: "https://https://grandezzatrade.vercel.app",
+  },
+  {
+    img: workThree,
+    text: "This is a mini tech site",
+    link: "https://techsite-ashy.vercel.app",
   },
 ];
 
