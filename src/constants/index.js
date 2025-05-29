@@ -53,12 +53,12 @@ export const works = [
   {
     img: workOne,
     text: "This is a real estate website",
-    link: "https://https://giovannahomes.com",
+    link: "https://giovannahomes.com",
   },
   {
     img: workTwo,
     text: "This is an investment website",
-    link: "https://https://grandezzatrade.vercel.app",
+    link: "https://grandezzatrade.vercel.app",
   },
   {
     img: workThree,
